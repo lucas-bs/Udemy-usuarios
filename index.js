@@ -3,6 +3,12 @@ var fields = document.querySelectorAll("#form-user-create [name]");
 
 var user = {};
 
+function addLine(dataUser){
+    
+    
+    
+}
+
 
 
 document.getElementById("form-user-create").addEventListener("submit", function(event){
@@ -22,6 +28,6 @@ document.getElementById("form-user-create").addEventListener("submit", function(
 
     });
 
-    console.log(user);
+    addLine(user);
     
 });
